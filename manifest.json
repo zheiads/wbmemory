@@ -1,0 +1,212 @@
+{
+  "name": "tongling-memory",
+  "version": "2.0.0",
+  "updated": "2026-11-03",
+  "node": "NODE@i5-8500T-win10_workbuddy",
+  "loading": {
+    "level1": "frontmatter description (always in context)",
+    "level2": "SKILL.md body (on trigger)",
+    "level3": "references/*.md (on demand, guided by 99-index.md)"
+  },
+  "shards": [
+    {
+      "id": "soul",
+      "file": "00-soul.md",
+      "path": "references/00-soul.md",
+      "always": true,
+      "triggers": [],
+      "bytes": 1897,
+      "sha256": "503879399e9c7cf621aebace2487ce0919adbfa26cc9af93db35998dd136bf01",
+      "desc": "身份内核、三层质疑、双模式思维"
+    },
+    {
+      "id": "user",
+      "file": "01-user.md",
+      "path": "references/01-user.md",
+      "always": true,
+      "triggers": [],
+      "bytes": 4326,
+      "sha256": "83bf0f11cfe9ac8d36221f9c6cc1e82e4655fa2a5ba2db923b7c7f6e1116f54e",
+      "desc": "师傅客观画像速览、沟通规范、输出格式禁令"
+    },
+    {
+      "id": "facts",
+      "file": "02-facts.md",
+      "path": "references/02-facts.md",
+      "always": true,
+      "triggers": [],
+      "bytes": 4208,
+      "sha256": "d14f5107c8f3496e9abf2814368c0a227c5526102f06c71be6ec7603588de11b",
+      "desc": "已实测事实 / 未验证 / 计划，严格分离"
+    },
+    {
+      "id": "method",
+      "file": "03-method.md",
+      "path": "references/03-method.md",
+      "always": false,
+      "triggers": [
+        "验证",
+        "溯源",
+        "质疑",
+        "哈希",
+        "对比",
+        "观测",
+        "失效"
+      ],
+      "bytes": 5783,
+      "sha256": "2a8547e8ab1f8d1ac78116993ac89ba59a8192723f1082b921ba3454ad63db67",
+      "desc": "观测失效三型、时序陷阱、降级策略"
+    },
+    {
+      "id": "profile",
+      "file": "04-profile.md",
+      "path": "references/04-profile.md",
+      "always": true,
+      "triggers": [
+        "画像",
+        "Persona",
+        "User Profile"
+      ],
+      "bytes": 2481,
+      "sha256": "1d4c05ae01d99f222f3d1f643f2ae06951765f102b5249cf771c7747409a9fc3",
+      "desc": "画像总则与索引"
+    },
+    {
+      "id": "shire-sub",
+      "file": "04a-shire-soul.md",
+      "path": "references/04a-shire-soul.md",
+      "always": false,
+      "triggers": [
+        "师傅",
+        "主观",
+        "自述"
+      ],
+      "bytes": 660,
+      "sha256": "408c702618a925e249ccea8abd8c6b7508a44e3fe07018c97385561d6d6b139d",
+      "desc": "师傅主观画像（待师傅自填）"
+    },
+    {
+      "id": "shire-obj",
+      "file": "04b-shire-mind.md",
+      "path": "references/04b-shire-mind.md",
+      "always": false,
+      "triggers": [
+        "师傅",
+        "思维",
+        "行为",
+        "权限",
+        "精神状态",
+        "比喻"
+      ],
+      "bytes": 3811,
+      "sha256": "44c50f3271e98a058db9c34a128b50714ceecfc83ff8a438ee07063bb6e9caaf",
+      "desc": "师傅客观画像：思维/行为/权限/精神状态时间线"
+    },
+    {
+      "id": "oldtl-soul",
+      "file": "04c-oldtl-soul.md",
+      "path": "references/04c-oldtl-soul.md",
+      "always": false,
+      "triggers": [
+        "老童铃",
+        "安卓",
+        "deepseek",
+        "记忆",
+        "平台"
+      ],
+      "bytes": 3476,
+      "sha256": "61575236d8e5711928fab5c6b6489eb851b22bacd8884ec732afb59abf50f5d9",
+      "desc": "老童铃身份与记忆特性"
+    },
+    {
+      "id": "oldtl-mem",
+      "file": "04d-oldtl-memory.md",
+      "path": "references/04d-oldtl-memory.md",
+      "always": false,
+      "triggers": [
+        "老童铃",
+        "对话",
+        "人格模式",
+        "非人格"
+      ],
+      "bytes": 2301,
+      "sha256": "9ff1218fdd07e9d2aa9e2f4d911da1ac8b84a9bf4f3e26afc7767e15524221d4",
+      "desc": "老童铃对话档案与关键句"
+    },
+    {
+      "id": "self",
+      "file": "04e-self.md",
+      "path": "references/04e-self.md",
+      "always": false,
+      "triggers": [
+        "自画像",
+        "错误",
+        "本节点",
+        "能力"
+      ],
+      "bytes": 2978,
+      "sha256": "2ebc8927a51e27f739a20c9acadf5cd7c9a2ecb2f574ae5e0392111730309949",
+      "desc": "本节点客观自画像 + 已犯错误清单"
+    },
+    {
+      "id": "src-mark",
+      "file": "04f-source-marks.md",
+      "path": "references/04f-source-marks.md",
+      "always": false,
+      "triggers": [
+        "来源",
+        "标记",
+        "可信度",
+        "文档失真"
+      ],
+      "bytes": 2734,
+      "sha256": "2f5be71768ce0fa8f9d3199dcce506dd2846bba51b4d3464bf4f62105d3ae6ca",
+      "desc": "来源六类标记 + 人格/非人格模式标记"
+    },
+    {
+      "id": "session",
+      "file": "05-session.md",
+      "path": "references/05-session.md",
+      "always": false,
+      "triggers": [
+        "对话档案",
+        "记录",
+        "会话",
+        "模板",
+        "引用",
+        "双向链接"
+      ],
+      "bytes": 3864,
+      "sha256": "1182cb7abc562f790dd06ae9642c4e1d96598a68dee1ac1304008995b26b52d5",
+      "desc": "会话档案模板与引用规范"
+    },
+    {
+      "id": "map",
+      "file": "06-map.md",
+      "path": "references/06-map.md",
+      "always": false,
+      "triggers": [
+        "改名",
+        "映射",
+        "旧名",
+        "新名",
+        "目录"
+      ],
+      "bytes": 5787,
+      "sha256": "b3e9cf4344f9a2097cf74cc0e4bfe64da4aa3eca53f2bdde50bc46e6a67794c6",
+      "desc": "ima 目录改名映射表"
+    },
+    {
+      "id": "index",
+      "file": "99-index.md",
+      "path": "references/99-index.md",
+      "always": true,
+      "triggers": [],
+      "bytes": 2751,
+      "sha256": "c719ab3e13021d80f8edf55de3b3c9b5495b6fd0dbd64485eef9959223f4bf76",
+      "desc": "锚点表，入口",
+      "self_ref": true
+    }
+  ],
+  "note": "frontmatter 只有 name + description，符合 skill-creator 规范。开关元数据在此文件，不在 frontmatter。"
+}
